@@ -22,7 +22,8 @@ const styles = {
         width: "40%"
     },
     resume: {
-        marginLeft: "500px"
+        marginLeft: "500px",
+        color: "black"
     }
 }
 
