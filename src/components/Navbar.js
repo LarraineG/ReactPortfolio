@@ -37,14 +37,6 @@ function Navbar() {
                             Projects
                         </Link>
                         </li>
-                    <li className="nav-item">
-                        <Link
-                            to="https://drive.google.com/file/d/1zoaFFFMmCdE7--WdnTZOv5tAPbsJe4iE/view"
-                            className={window.location.pathname === "ReactPortfolio/resume" ? "nav-link active" : "nav-link"}
-                        >
-                            View Resume
-                        </Link>
-                    </li>
                 </ul>
             </div>
         </nav>
