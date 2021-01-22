@@ -35,7 +35,7 @@ function About() {
                     <h1 style={styles.header} className="display-4 text-center">Larraine Gonzales</h1>
                     <img style={styles.pic} src="https://user-images.githubusercontent.com/68169895/95691448-efe2cf80-0be4-11eb-8df6-bbb446341fb6.jpg" alt="Larraine!"></img>
                     <p style={styles.bio} className="lead">I am a certified Full Stack Developer. I thrive in the tech industry as I enjoy always learning the forever evolving tech tools! I have a background in marketing and sales, giving me a great eye for design for any desired market. </p>
-                    <a style={styles.resume} href="https://docs.google.com/document/d/18UGhg3VHCMxc3AXLdSdLcNmp3EhrYcpKkqF0IOfUg6c/edit?usp=sharing">View Resume</a>
+                    <a style={styles.resume} href="https://drive.google.com/file/d/1Sc92BIYK3cvK3wkyVS3HdbtJjnb9mPEL/view?usp=sharing">View Resume</a>
                 </div>
             </div>
         </Container>
