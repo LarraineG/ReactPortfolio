@@ -5,7 +5,7 @@ import Container from "../components/Container";
 const projectList = [
     {
         title: "Weather Dashboard",
-        href: "https://larraineg.github.io/WeatherDashboard-HW-06/",
+        href: "https://larraineg.github.io/WeatherDashboard/",
         about: "This is an easy to use Weather Application with a search box for your desired location with a 5 day forecast, utilizing a third party API",
         img: "https://user-images.githubusercontent.com/68169895/95691097-34b93700-0be2-11eb-9ae5-e561a4e2de00.png"
     },
