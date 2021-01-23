@@ -15,7 +15,7 @@ const styles = {
     },
     pic: {
         width: "250px",
-        height: "500px",
+        height: "530px",
         display: "block",
         marginLeft: "auto",
         marginRight: "auto",
