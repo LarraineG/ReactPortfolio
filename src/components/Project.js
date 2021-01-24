@@ -7,7 +7,11 @@ const styles = {
     img: {
         postion: "absolute",
         display: "flex",
-        alignItems: "flex-end"
+        alignItems: "flex-end",
+        width: "100%"
+    },
+    cardBody: {
+        width: "100%"
     }
 }
 

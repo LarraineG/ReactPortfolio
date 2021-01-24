@@ -2,6 +2,14 @@ import React from "react";
 import Project from "../components/Project";
 import Container from "../components/Container";
 
+const styles = {
+    cardBody: {
+    width: "100%"
+    },
+    about: {
+        width: "100%"
+    }
+}
 const projectList = [
     {
         title: "Weather Dashboard",
@@ -22,9 +30,9 @@ const projectList = [
         img: "https://user-images.githubusercontent.com/68169895/95691172-c3c64f00-0be2-11eb-9b1c-b8b7ed7e569f.png"
     },
     {
-    title: "Note Taker",
-    about: "This is a simple way to take any notes you may want to jot down",
-    img: "https://user-images.githubusercontent.com/68169895/95691357-29ffa180-0be4-11eb-87de-38ec89007bb6.png"
+        title: "Note Taker",
+        about: "This is a simple way to take any notes you may want to jot down",
+        img: "https://user-images.githubusercontent.com/68169895/95691357-29ffa180-0be4-11eb-87de-38ec89007bb6.png"
     },
     {
         title: "Employee Directory",
@@ -36,8 +44,8 @@ const projectList = [
 
 function Projects () {
     return(
-        <Container className={"container w-75 myb-5 mx-auto shadow-lg bg-transparent vw-100s rounded"}>
-            <div className="row">
+        <Container className={"col-xsm container w-75 myb-5 mx-auto shadow-lg bg-transparent vw-100s rounded"}>
+            <div className="col">
                 {projectList.map((obj) => <Project key={obj.title} title={obj.title} href={obj.href} about={obj.about} img={obj.img}/>)}
             </div>
         </Container>
