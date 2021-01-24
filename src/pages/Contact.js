@@ -29,7 +29,7 @@ function Contact() {
             </div>
             <div class="row">
                 <div class="col-xsm my-auto">
-                    <a href="https://www.linkedin.com/in/larraine-gonzales-9295abb9/" target="_blank">
+                    <a href="https://www.linkedin.com/in/larraine-gonzales/" target="_blank">
                         <img style={styles.LinkedIn} src="https://user-images.githubusercontent.com/68169895/95690066-ab523680-0bda-11eb-8502-80f07b046c90.jpg" alt="LinkedIn">
                         </img>
                     </a>
