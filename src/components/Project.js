@@ -11,7 +11,10 @@ const styles = {
         width: "100%"
     },
     cardBody: {
-        width: "100%"
+        width: "100%",
+    },
+    cardText: {
+        textSize: "50%"
     }
 }
 

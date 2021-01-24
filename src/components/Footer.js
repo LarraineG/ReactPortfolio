@@ -8,7 +8,7 @@ const styles = {
 
 function Footer() {
     return (
-        <div className="fixed-bottom">
+        <div className="bottom">
             <div className="card-body">
                 <a style={styles.text} className="mx-5 badge" href="https://www.linkedin.com/in/larraine-gonzales/" target="_blank">LinkedIn</a>
                 <a style={styles.text} className="mx-5 badge" href="https://github.com/LarraineG" target="_blank">GitHub</a>

@@ -3,12 +3,7 @@ import Project from "../components/Project";
 import Container from "../components/Container";
 
 const styles = {
-    cardBody: {
-    width: "100%"
-    },
-    about: {
-        width: "100%"
-    }
+    
 }
 const projectList = [
     {
@@ -34,17 +29,11 @@ const projectList = [
         about: "This is a simple way to take any notes you may want to jot down",
         img: "https://user-images.githubusercontent.com/68169895/95691357-29ffa180-0be4-11eb-87de-38ec89007bb6.png"
     },
-    {
-        title: "Employee Directory",
-        href: "https://nolanbt.github.io/react-employee-directory/",
-        about: "This application is great for organizing contacts or employees, sorting through by name utilizing React",
-        img: "https://user-images.githubusercontent.com/68169895/95691253-6252b000-0be3-11eb-8963-2472b0f38935.png"
-    },
 ]
 
 function Projects () {
     return(
-        <Container className={"col-xsm container w-75 myb-5 mx-auto shadow-lg bg-transparent vw-100s rounded"}>
+        <Container className={"col-sm "}>
             <div className="col">
                 {projectList.map((obj) => <Project key={obj.title} title={obj.title} href={obj.href} about={obj.about} img={obj.img}/>)}
             </div>
