@@ -8,19 +8,20 @@ const styles = {
         postion: "absolute",
         display: "flex",
         alignItems: "flex-end",
-        width: "100%"
+        width: "100%",
+        justifyContent: "center"
     },
     cardBody: {
         width: "100%",
     },
     cardText: {
         textSize: "50%"
-    }
+    },
 }
 
 function Project(props) {
     return (
-        <div style={styles.projectConatiner} className="card text-center col-5 mx-auto rounded my-1 shadow-lg border" >
+        <div style={styles.projectConatiner} className="card text-center row-1 mx-auto rounded my-1 shadow-lg border" >
             <div className="card-body">
                 <h5 className="card-title">{props.title}</h5>
                 <p className="card-text">{props.about}</p>
