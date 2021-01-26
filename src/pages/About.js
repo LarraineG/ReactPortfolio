@@ -15,7 +15,7 @@ const styles = {
         backgroundColor: "black"
     },
     pic: {
-        width: "40%",
+        width: "30%",
         display: "block",
         marginLeft: "auto",
         marginRight: "auto",
