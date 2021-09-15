@@ -37,7 +37,7 @@ function About() {
                 <div className="container">
                     <h1 style={styles.header} className="display-4 text-center">Larraine Gonzales</h1>
                     <img style={styles.pic} className="headshot" src="https://user-images.githubusercontent.com/68169895/105635464-894a9000-5e28-11eb-9b84-64ef1aa69c97.png" alt="Larraine!"></img>
-                    <p style={styles.bio} className="lead">With 10+ years in the restaurant industry as well as being a certified Full-Stack Web Developer, I thrive in the tech industry as I enjoy learning the forever evolving tech tools as well as staying on top of the new trends and creations within the restaurant and bar industrty! I have a background in the service industry, sales, and web development giving me an edge, in any desired market. <a style={styles.resume} href="https://drive.google.com/file/d/1Sc92BIYK3cvK3wkyVS3HdbtJjnb9mPEL/view?usp=sharing">View Resume</a></p>
+                    <p style={styles.bio} className="lead">With 10+ years in the restaurant industry as well as being a certified Full-Stack Web Developer, I thrive in the tech industry as I enjoy learning the forever evolving tech tools as well as staying on top of the new trends and creations within the restaurant and bar industrty! I have a background in the service industry, sales, and web development giving me an edge, in any desired market. <a style={styles.resume} href="https://drive.google.com/file/d/1o65YyEszi1W0pYpGy2UUCnNASFZX9QYp/view?usp=sharing">View Resume</a></p>
                 </div>
             </div>
         </Container>
