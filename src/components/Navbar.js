@@ -34,7 +34,7 @@ function Navbar() {
                             to="/projects"
                             className={window.location.pathname === "ReactPortfolio-HW-20/projects" ? "nav-link active" : "nav-link"}
                         >
-                            Projects
+                            UX/UI Projects
                         </Link>
                         </li>
                 </ul>
